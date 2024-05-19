@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+  font-family: "Poetsen One", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+  background-image: url("assets/EstrelasBack.png");
+}
+.hide {
+  display: none;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-player {
+  background: #000b01;
+  color: #c00a0a;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.desc-musica {
+  margin: 20px 0px 15px 0px;
+}
+.desc-musica span {
+  color: #c00a0a;
+}
+.conteudo-musica p {
+  font-size: 2.4rem;
+}
+.conteudo-musica span {
+  font-size: 1.8rem;
+}
+
+.controles {
+  margin: 10px 0px 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.controles button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container-progresso input {
+  width: 100%;
+}
+.tempo-musica {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
