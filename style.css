@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
 
-*{
+* {
   font-family: "Poetsen One", sans-serif;
   box-sizing: border-box;
   margin: 0;
@@ -60,4 +60,8 @@
   justify-content: space-between;
   font-size: 1.4rem;
   opacity: 0.8;
+}
+#capa-musica{
+  width: 200px;
+  height: 150px;
 }
